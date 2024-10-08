@@ -21,7 +21,7 @@ class CocktailListViewModel: ObservableObject {
             }
             .collect()
             .map { cocktailsArray in
-                cocktailsArray.flatMap { $0 } // Flatten the array of arrays
+                cocktailsArray.flatMap { $0 }
             }
             .eraseToAnyPublisher()
 

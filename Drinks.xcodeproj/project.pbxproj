@@ -35,11 +35,6 @@
 			path = Drinks;
 			sourceTree = "<group>";
 		};
-		D1145B9C2CB5A14D0058A127 /* DrinksTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = DrinksTests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				D1145B8B2CB5A14B0058A127 /* Drinks */,
-				D1145B9C2CB5A14D0058A127 /* DrinksTests */,
 				D1145B8A2CB5A14B0058A127 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -123,9 +117,6 @@
 			);
 			dependencies = (
 				D1145B9B2CB5A14D0058A127 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				D1145B9C2CB5A14D0058A127 /* DrinksTests */,
 			);
 			name = DrinksTests;
 			packageProductDependencies = (
